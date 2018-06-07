@@ -13,3 +13,4 @@ def input_to_index(num)
   num.to_i
   board[num-1]="X"
 end
+display_board(board)
