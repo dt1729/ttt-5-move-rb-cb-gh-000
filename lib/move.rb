@@ -9,10 +9,3 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-puts("Welcome to Tic Tac Toe!")
-puts("Where would you like to go?")
-def input_to_index(num)
-  num.to_i
-  board[num-1]="X"
-end
-display_board(board)
